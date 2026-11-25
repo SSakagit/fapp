@@ -1,0 +1,17 @@
+[project]
+name = "fapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SSakagit", email = "s2622071@stu.musashino-u.ac.jp" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+fapp = "fapp:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
